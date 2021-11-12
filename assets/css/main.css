@@ -6098,7 +6098,7 @@ input, select, textarea {
 	}
 
 	body.is-preload .gallery.onload-fade-in article .image img {
-		opacity: 0;
+		opacity: 1;
 	}
 
 	.gallery.onscroll-fade-in article .image img {
@@ -6520,7 +6520,7 @@ input, select, textarea {
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				pointer-events: none;
+				pointer-events: visibleFill;
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
@@ -6531,7 +6531,7 @@ input, select, textarea {
 				width: 100%;
 				height: 100%;
 				background-color: rgba(0, 0, 0, 0.5);
-				opacity: 0;
+				opacity: 1;
 				padding: 2rem;
 				z-index: 1;
 				font-size: 0.8rem;
